@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개 페이지</title>
+</head>
+<body>
+   <div>
+     <h2>자기소개</h2>
+     <li> 이름 : 테오</li>
+     <li> 사는 곳 : 수원 (신림예정) </li>
+     <li> 안녕하세요 테오입니다. 반가워요!</li>
+   </div>
+  <hr>
+  <div>
+     <h2>인생 영화 BEST 5</h2>
+     <table border = "1">
+       <tr>
+         <td>순위</td>
+         <td>제목</td>
+         <td>포스터</td>
+         <td>줄거리</td>
+         <td>바로가기</td>
+         </tr>
+       
+       <tr>
+         <td>1</td>
+         <td>나는 내일, 어제의 너와 만난다</td>
+         <td><img src="../images/movie_image_1.jpeg" width="150" height="200"></td>
+         <td>내일, 만날 수 있을까? 어제의 너를-</td>
+         <td><a href = "https://movie.naver.com/movie/bi/mi/basic.naver?code=157178"> 링크 </td>
+         </tr>
+       
+        <tr>
+         <td>2</td>
+         <td>타이타닉</td>
+         <td><img src="../images/movie_image_2.jpeg" width="150" height="200"></td>
+         <td>"내 인생의 가장 큰 행운은 당신을 만난 거야"</td>
+         <td><a href = "https://movie.naver.com/movie/bi/mi/basic.naver?code=18847"> 링크 </td>
+         </tr>
+       
+        <tr>
+         <td>3</td>
+         <td>다크나이트</td>
+         <td><img src="../images/movie_image_3.jpeg" width="150" height="200"></td>
+         <td>어둠의 기사 배트맨 VS 절대 악 조커
+운명을 건 최후의 결전이 시작된다!</td>
+         <td><a href = "https://movie.naver.com/movie/bi/mi/basic.naver?code=62586"> 링크 </td>
+         </tr>
+       
+        <tr>
+         <td>4</td>
+         <td>어바웃 타임</td>
+         <td><img src="../images/movie_image_4.jpeg" width="150" height="200"></td>
+         <td> 어떠한 순간을 다시 살게 된다면, 과연 완벽한 사랑을 이룰 수 있을까?</td>
+         <td><a href = "https://movie.naver.com/movie/bi/mi/basic.naver?code=92075"> 링크 </td>
+         </tr>
+       
+        <tr>
+         <td>5</td>
+         <td>비긴 어게인</td>
+         <td><img src="../images/movie_image_5.jpeg" width="150" height="200"></td>
+         <td>“다시 시작해, 너를 빛나게 할 노래를!”</td>
+         <td><a href = "https://movie.naver.com/movie/bi/mi/basic.naver?code=96379"> 링크 </td>
+         </tr>
+    </table>
+   </div>
+
+   <hr>
+
+   <div>
+    <h3> 본인 취향 영화 </h3>
+
+    <p> 이름 : <input type = "text" id = "myName"> </p>
+
+    <form name = "myForm" id = "frm">
+
+    <input type="checkbox" name="first" value="1"> 나는 내일, 어제의 너와 만난다
+    <input type="checkbox" name="second" value="2"> 타이타닉
+    <input type="checkbox" name="third" value="3"> 다크나이트
+    <input type="checkbox" name="fourth" value="4"> 어바웃 타임
+    <input type="checkbox" name="fifth" value="5"> 비긴 어게인
+
+    <p> <input type="submit" value="등록"> <input type="reset" value="취소"> </p>
+    </form>
+  </div>
+
+</body>
+<script src="../js/myScript.js"></script>
+</html>
